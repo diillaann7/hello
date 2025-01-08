@@ -1,34 +1,99 @@
-.bild {
-    position: relative;
-    left: 800px;
-    top: 100px;
-    width: 300px;
-    height: 200px;
-
-
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif; /* Hinzufügen einer allgemeineren Schriftart */
+    position: relative; /* Ermöglicht die absolute Positionierung innerhalb des Bodys */
 }
 
 .text {
-    font-size: larger;
+    font-size: 1.8rem; /* Etwas größer für bessere Lesbarkeit */
     font-style: italic;
     position: relative;
-    left: 40%;
-    top: 0%;
-
-}
-
-body {
-    background-color: aqua;
+    text-align: center; /* Text zentrieren */
 }
 
 .text2 {
-    font-size: medium;
+    font-size: 1.2rem;
     font-style: oblique;
+    margin: 20px; /* Etwas Abstand hinzufügen */
 }
 
-.links{
-    color: blue;
+.links {
+    color: red;
     text-decoration: underline;
     font-size: 16px;
     font-style: inherit;
+    display: flex; /* Flexbox verwenden für bessere Anordnung */
+    justify-content: center; /* Links horizontal zentrieren */
+    gap: 20px; /* Abstand zwischen den Links */
+}
+
+.bild {
+    position: relative;
+    left: 50%; /* Zentriert das Bild */
+    transform: translateX(-50%); /* Korrektur der genauen Position */
+    width: 300px;
+    height: 200px;
+    margin-top: 20px; /* Etwas Abstand nach oben */
+}
+
+.beschreibung {
+    text-align: center; /* Zentriert die Beschreibung */
+    margin-top: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Button blockweise anordnen */
+    margin: 20px auto; /* Zentriert den Button */
+    text-align: center; /* Text im Button zentrieren */
+}
+
+button:hover {
+    background-color: darkred; /* Farbänderung bei Hover */
+}
+
+.buttons {
+    text-align: center;
+}
+
+.na {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Volle Breite des Headers */
+    background-color: #f8f8f8; /* Heller Hintergrund für die Navigation */
+}
+
+.na a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.na ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Links horizontal zentrieren */
+    padding: 0;
+}
+
+.na li {
+    padding: 10px;
+}
+
+.in {
+    position: absolute; /* Absolute Positionierung */
+    top: 10%; /* Setzt die Inputs 10% von oben */
+    left: 50%; /* Setzt die Inputs horizontal in die Mitte */
+    transform: translateX(-50%); /* Korrigiert die Position, um genau in der Mitte zu sein */
 }
