@@ -1,48 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-    <link rel="stylesheet" href="test.css"> <!-- Link sollte innerhalb des <head>-Tags stehen -->
+    <link rel="stylesheet" href="test.css">
 </head>
 
 <body>
+    <header>
+        <nav class="na">
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="text">
         <h1>Dilan Othman</h1>
     </div>
-    <p class="text2">Hallo, mein Name ist Dilan Othman, ich bin 19 Jahre alt und studiere aktuell Informatik an der Ruhr-Universität Bochum. Schon seit meiner Kindheit interessiere ich mich für Technik und Computer. Dieser frühe Enthusiasmus hat mich dazu inspiriert, meine Leidenschaft in einem Studium der Informatik weiter zu verfolgen.
-        In den letzten Jahren habe ich nicht nur tiefgehende Kenntnisse in Programmierung und Softwareentwicklung erworben, sondern auch meine Fähigkeiten im Bereich IT-Sicherheit weiterentwickelt. Besonders faszinieren mich die Themen Cybersicherheit und das Design von sicheren Systemen. Ich möchte später in der IT-Sicherheitsbranche arbeiten und Unternehmen dabei helfen, ihre digitalen Infrastrukturen gegen Bedrohungen abzusichern.</p> 
+
+    <p class="text2">Hallo, mein Name ist Dilan Othman, ich bin 19 Jahre alt und studiere aktuell Informatik an der Ruhr-Universität Bochum. Schon seit meiner Kindheit interessiere ich mich für Technik und Computer. Dieser frühe Enthusiasmus hat mich dazu inspiriert, meine Leidenschaft in einem Studium der Informatik weiter zu verfolgen. In den letzten Jahren habe ich nicht nur tiefgehende Kenntnisse in Programmierung und Softwareentwicklung erworben, sondern auch meine Fähigkeiten im Bereich IT-Sicherheit weiterentwickelt. Besonders faszinieren mich die Themen Cybersicherheit und das Design von sicheren Systemen. Ich möchte später in der IT-Sicherheitsbranche arbeiten und Unternehmen dabei helfen, ihre digitalen Infrastrukturen gegen Bedrohungen abzusichern.</p>
 
     <div class="links">
         <a href="https://github.com/diillaann7" target="_blank" title="Dilan's GitHub">GitHub</a>
         <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" title="Mail">Email</a>
-        <a href="tel:123456789" target="_blank" title="Telefon">Tel</a> <!-- Falscher Link zu "telefon", hier die korrekte Syntax für eine Telefonnummer -->
+        <a href="tel:123456789" target="_blank" title="Telefon">Tel</a>
     </div>
 
     <div class="beschreibung">
-        <p>Bonhoeffer Weg 20</p> <!-- Großbuchstaben korrigiert -->
+        <p>Bonhoeffer Weg 20</p>
         <p>Dilan Othman</p>
-        <p>19 Jahre alt</p> <!-- Satzzeichen und Grammatik korrigiert -->
+        <p>19 Jahre alt</p>
     </div>
 
     <div class="bild">
-        <img src="ronaldo.jpg.jpg" alt="Foto von Dilan Othman"> <!-- Bilddateiname und alt-Text korrigiert -->
+        <img src="ronaldo.jpg.jpg" alt="Foto von Dilan Othman">
     </div>
 
-    <button onclick="window.open('https://moodle.ruhr-uni-bochum.de/my/', '_blank');">Zur Moodle-Seite</button>
+    
 
     <ul>
-        <li>Element 1</li> <!-- Korrektur der Schreibweise -->
+        <li>Element 1</li>
         <li>Element 2</li>
         <li>Element 3</li>
     </ul>
 
     <div class="buttons">
-        <button type="button" aria-label="Button 1">Click 1</button> <!-- Beschreibung hinzugefügt -->
-        <button type="button" aria-label="Button 2">Click 2</button> <!-- Beschreibung hinzugefügt -->
+        <button  onclick="window.open('https://moodle.ruhr-uni-bochum.de/my/', '_blank');">Zur Moodle-Seite</button>
+        <button>Click 1</button>
+        <button>Click 2</button>
     </div>
-</body>
 
+    <div class="in">
+        <input type="text" name="username" placeholder="bentuzername">
+        <input type="password" name="passwor" placeholder="pass">
+    </div>
+
+</body>
 </html>
