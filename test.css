@@ -6,9 +6,10 @@ body {
 
 .text {
     font-size: 1.8rem; /* Etwas größer für bessere Lesbarkeit */
-    font-style: italic;
+    font-style: oblique;
     position: relative;
-    text-align: center; /* Text zentrieren */
+    text-align:center ;
+    left: 37%;
 }
 
 .text2 {
@@ -29,7 +30,7 @@ body {
 
 .bild {
     position: relative;
-    left: 50%; /* Zentriert das Bild */
+    left: 53%; /* Zentriert das Bild */
     transform: translateX(-50%); /* Korrektur der genauen Position */
     width: 300px;
     height: 200px;
@@ -93,7 +94,7 @@ button:hover {
 
 .in {
     position: absolute; /* Absolute Positionierung */
-    top: 10%; /* Setzt die Inputs 10% von oben */
-    left: 50%; /* Setzt die Inputs horizontal in die Mitte */
+    top:  1%; /* Setzt die Inputs 10% von oben */
+    left: 10%; /* Setzt die Inputs horizontal in die Mitte */
     transform: translateX(-50%); /* Korrigiert die Position, um genau in der Mitte zu sein */
 }
