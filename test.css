@@ -95,6 +95,7 @@ button:hover {
 .in {
     position: absolute; /* Absolute Positionierung */
     top:  1%; /* Setzt die Inputs 10% von oben */
-    left: 10%; /* Setzt die Inputs horizontal in die Mitte */
+    left: 20%; /* Setzt die Inputs horizontal in die Mitte */
     transform: translateX(-50%); /* Korrigiert die Position, um genau in der Mitte zu sein */
 }
+
